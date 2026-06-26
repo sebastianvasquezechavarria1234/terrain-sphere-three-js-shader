@@ -1,8 +1,14 @@
+<div align="center">
+
 # Terrain Sphere Three.js Shader
 
-An experiment in real-time procedural terrain generation using custom GLSL shaders and Three.js. A sphere is deformed on the GPU via Simplex noise and Fractal Brownian Motion, with interactive effects triggered by mouse hover and click.
+An experiment in real-time procedural terrain generation using custom GLSL shaders and Three.js.
+
+A sphere is deformed on the GPU via Simplex noise and Fractal Brownian Motion, with interactive effects triggered by mouse hover and click.
 
 ![Preview](img/preview.jpg)
+
+</div>
 
 ## About
 
