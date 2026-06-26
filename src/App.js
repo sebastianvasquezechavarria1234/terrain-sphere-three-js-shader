@@ -158,6 +158,9 @@ export class App {
 
     this.updateState(dt);
 
+    // Expose state for UI
+    window.__appState = this.state;
+
     // Push uniforms
     setSphereUniform(this.sphere, 'uTime', t);
     setSphereUniform(this.sphere, 'uMouse', this.smoothMouse);
